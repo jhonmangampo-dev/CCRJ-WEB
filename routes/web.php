@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+require_once 'adminroutes.php';
+
+Route::get('/', 'PagesController@index');
