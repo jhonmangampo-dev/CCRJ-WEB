@@ -14,3 +14,6 @@
 require_once 'adminroutes.php';
 
 Route::get('/', 'PagesController@index');
+
+//Test Controller
+Route::get('/test', 'TestsController@index');

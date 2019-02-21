@@ -4,6 +4,6 @@
  * Admin Route
  */
 
-$controller = 'AdminController';
+$controller = 'AdminsController';
  
 Route::get('/admin', $controller.'@index');
